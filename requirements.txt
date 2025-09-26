@@ -1,0 +1,6 @@
+discord.py
+gTTS
+Pillow
+aiohttp
+nest_asyncio
+unidecode
