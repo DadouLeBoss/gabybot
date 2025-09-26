@@ -11,6 +11,8 @@ import nest_asyncio
 nest_asyncio.apply()
 import json
 
+from dotenv import load_dotenv
+load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 with open("clusters_visuels.json", "r", encoding="utf-8") as f:
@@ -165,6 +167,7 @@ async def on_message(message):
             
             
             return
+
 
 
 
