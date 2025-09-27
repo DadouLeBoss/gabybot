@@ -133,16 +133,12 @@
   ],
   [
     {
-      "champion": "mordekaiser",
-      "skin_id": 82003
-    },
-    {
       "champion": "karthus",
       "skin_id": 30004
     },
     {
-      "champion": "olaf",
-      "skin_id": 2004
+      "champion": "mordekaiser",
+      "skin_id": 82003
     },
     {
       "champion": "sona",
@@ -151,23 +147,23 @@
     {
       "champion": "yorick",
       "skin_id": 83002
+    },
+    {
+      "champion": "olaf",
+      "skin_id": 2004
     }
   ],
   [
-    {
-      "champion": "olaf",
-      "skin_id": 2005
-    },
     {
       "champion": "alistar",
       "skin_id": 12008
+    },
+    {
+      "champion": "olaf",
+      "skin_id": 2005
     }
   ],
   [
-    {
-      "champion": "olaf",
-      "skin_id": 2006
-    },
     {
       "champion": "leona",
       "skin_id": 89009
@@ -179,32 +175,36 @@
     {
       "champion": "pantheon",
       "skin_id": 80008
+    },
+    {
+      "champion": "olaf",
+      "skin_id": 2006
     }
   ],
   [
     {
-      "champion": "nami",
-      "skin_id": 267008
+      "champion": "jhin",
+      "skin_id": 202003
     },
     {
       "champion": "zac",
       "skin_id": 154006
     },
     {
-      "champion": "ekko",
-      "skin_id": 245011
-    },
-    {
       "champion": "olaf",
       "skin_id": 2015
     },
     {
-      "champion": "syndra",
-      "skin_id": 134005
+      "champion": "ekko",
+      "skin_id": 245011
     },
     {
-      "champion": "jhin",
-      "skin_id": 202003
+      "champion": "nami",
+      "skin_id": 267008
+    },
+    {
+      "champion": "syndra",
+      "skin_id": 134005
     }
   ],
   [
@@ -221,16 +221,16 @@
   ],
   [
     {
-      "champion": "yorick",
-      "skin_id": 83021
-    },
-    {
       "champion": "olaf",
       "skin_id": 2035
     },
     {
       "champion": "kayle",
       "skin_id": 10033
+    },
+    {
+      "champion": "yorick",
+      "skin_id": 83021
     }
   ],
   [
@@ -287,22 +287,22 @@
       "skin_id": 110009
     },
     {
-      "champion": "galio",
-      "skin_id": 3013
-    },
-    {
       "champion": "shen",
       "skin_id": 98016
+    },
+    {
+      "champion": "galio",
+      "skin_id": 3013
     }
   ],
   [
     {
-      "champion": "galio",
-      "skin_id": 3019
-    },
-    {
       "champion": "kayle",
       "skin_id": 10024
+    },
+    {
+      "champion": "galio",
+      "skin_id": 3019
     }
   ],
   [
@@ -329,20 +329,20 @@
       "skin_id": 81008
     },
     {
-      "champion": "mordekaiser",
-      "skin_id": 82005
-    },
-    {
       "champion": "syndra",
       "skin_id": 134003
     },
     {
-      "champion": "twisted fate",
-      "skin_id": 4002
+      "champion": "mordekaiser",
+      "skin_id": 82005
     },
     {
       "champion": "shaco",
       "skin_id": 35007
+    },
+    {
+      "champion": "twisted fate",
+      "skin_id": 4002
     }
   ],
   [
@@ -381,12 +381,12 @@
   ],
   [
     {
-      "champion": "alistar",
-      "skin_id": 12007
+      "champion": "maokai",
+      "skin_id": 57005
     },
     {
-      "champion": "gragas",
-      "skin_id": 79007
+      "champion": "alistar",
+      "skin_id": 12007
     },
     {
       "champion": "lucian",
@@ -397,8 +397,8 @@
       "skin_id": 4008
     },
     {
-      "champion": "maokai",
-      "skin_id": 57005
+      "champion": "gragas",
+      "skin_id": 79007
     }
   ],
   [
@@ -431,20 +431,20 @@
   ],
   [
     {
-      "champion": "twisted fate",
-      "skin_id": 4023
-    },
-    {
       "champion": "nidalee",
       "skin_id": 76027
     },
     {
-      "champion": "jhin",
-      "skin_id": 202023
-    },
-    {
       "champion": "kennen",
       "skin_id": 85023
+    },
+    {
+      "champion": "twisted fate",
+      "skin_id": 4023
+    },
+    {
+      "champion": "jhin",
+      "skin_id": 202023
     },
     {
       "champion": "leona",
@@ -627,20 +627,20 @@
   ],
   [
     {
-      "champion": "kai'sa",
-      "skin_id": 145016
-    },
-    {
       "champion": "leblanc",
       "skin_id": 7019
     },
     {
-      "champion": "fiora",
-      "skin_id": 114031
+      "champion": "kai'sa",
+      "skin_id": 145016
     },
     {
       "champion": "camille",
       "skin_id": 164010
+    },
+    {
+      "champion": "fiora",
+      "skin_id": 114031
     }
   ],
   [
@@ -723,20 +723,20 @@
   ],
   [
     {
-      "champion": "ekko",
-      "skin_id": 245002
+      "champion": "ahri",
+      "skin_id": 103006
     },
     {
-      "champion": "darius",
-      "skin_id": 122008
+      "champion": "ekko",
+      "skin_id": 245002
     },
     {
       "champion": "vladimir",
       "skin_id": 8007
     },
     {
-      "champion": "ahri",
-      "skin_id": 103006
+      "champion": "darius",
+      "skin_id": 122008
     }
   ],
   [
@@ -849,12 +849,12 @@
   ],
   [
     {
-      "champion": "kayle",
-      "skin_id": 10000
-    },
-    {
       "champion": "morgana",
       "skin_id": 25000
+    },
+    {
+      "champion": "kayle",
+      "skin_id": 10000
     }
   ],
   [
@@ -877,12 +877,12 @@
   ],
   [
     {
-      "champion": "morgana",
-      "skin_id": 25001
-    },
-    {
       "champion": "kayle",
       "skin_id": 10004
+    },
+    {
+      "champion": "morgana",
+      "skin_id": 25001
     }
   ],
   [
@@ -909,12 +909,12 @@
   ],
   [
     {
-      "champion": "nocturne",
-      "skin_id": 56006
-    },
-    {
       "champion": "singed",
       "skin_id": 27008
+    },
+    {
+      "champion": "nocturne",
+      "skin_id": 56006
     },
     {
       "champion": "kayle",
@@ -955,6 +955,12 @@
     {
       "champion": "kayle",
       "skin_id": 10067
+    }
+  ],
+  [
+    {
+      "champion": "kayle",
+      "skin_id": 10078
     }
   ],
   [
@@ -1109,38 +1115,38 @@
   ],
   [
     {
-      "champion": "elise",
-      "skin_id": 60004
+      "champion": "azir",
+      "skin_id": 268003
+    },
+    {
+      "champion": "renekton",
+      "skin_id": 58008
     },
     {
       "champion": "kalista",
       "skin_id": 429003
     },
     {
-      "champion": "alistar",
-      "skin_id": 12009
-    },
-    {
-      "champion": "azir",
-      "skin_id": 268003
-    },
-    {
       "champion": "ryze",
       "skin_id": 13010
     },
     {
-      "champion": "renekton",
-      "skin_id": 58008
+      "champion": "elise",
+      "skin_id": 60004
+    },
+    {
+      "champion": "alistar",
+      "skin_id": 12009
     }
   ],
   [
     {
-      "champion": "kog'maw",
-      "skin_id": 96009
-    },
-    {
       "champion": "renekton",
       "skin_id": 58009
+    },
+    {
+      "champion": "kog'maw",
+      "skin_id": 96009
     },
     {
       "champion": "alistar",
@@ -1173,6 +1179,12 @@
     {
       "champion": "alistar",
       "skin_id": 12029
+    }
+  ],
+  [
+    {
+      "champion": "alistar",
+      "skin_id": 12040
     }
   ],
   [
@@ -1235,16 +1247,16 @@
       "skin_id": 13009
     },
     {
-      "champion": "varus",
-      "skin_id": 110005
+      "champion": "gragas",
+      "skin_id": 79009
     },
     {
       "champion": "braum",
       "skin_id": 201003
     },
     {
-      "champion": "gragas",
-      "skin_id": 79009
+      "champion": "varus",
+      "skin_id": 110005
     }
   ],
   [
@@ -1271,6 +1283,12 @@
     {
       "champion": "ryze",
       "skin_id": 13020
+    }
+  ],
+  [
+    {
+      "champion": "ryze",
+      "skin_id": 13029
     }
   ],
   [
@@ -1387,12 +1405,12 @@
   ],
   [
     {
-      "champion": "nautilus",
-      "skin_id": 111004
-    },
-    {
       "champion": "sivir",
       "skin_id": 15007
+    },
+    {
+      "champion": "nautilus",
+      "skin_id": 111004
     }
   ],
   [
@@ -1517,12 +1535,12 @@
   ],
   [
     {
-      "champion": "ezreal",
-      "skin_id": 81020
-    },
-    {
       "champion": "miss fortune",
       "skin_id": 21017
+    },
+    {
+      "champion": "ezreal",
+      "skin_id": 81020
     },
     {
       "champion": "soraka",
@@ -1632,11 +1650,11 @@
   [
     {
       "champion": "teemo",
-      "skin_id": 17027
+      "skin_id": 17025
     },
     {
       "champion": "teemo",
-      "skin_id": 17025
+      "skin_id": 17027
     }
   ],
   [
@@ -1649,6 +1667,12 @@
     {
       "champion": "teemo",
       "skin_id": 17047
+    }
+  ],
+  [
+    {
+      "champion": "teemo",
+      "skin_id": 17054
     }
   ],
   [
@@ -1766,11 +1790,11 @@
   [
     {
       "champion": "warwick",
-      "skin_id": 19009
+      "skin_id": 19002
     },
     {
       "champion": "warwick",
-      "skin_id": 19002
+      "skin_id": 19009
     }
   ],
   [
@@ -1887,14 +1911,6 @@
   ],
   [
     {
-      "champion": "ezreal",
-      "skin_id": 81006
-    },
-    {
-      "champion": "nunu & willump",
-      "skin_id": 20006
-    },
-    {
       "champion": "shen",
       "skin_id": 98006
     },
@@ -1903,18 +1919,26 @@
       "skin_id": 61004
     },
     {
+      "champion": "nunu & willump",
+      "skin_id": 20006
+    },
+    {
+      "champion": "ezreal",
+      "skin_id": 81006
+    },
+    {
       "champion": "dr. mundo",
       "skin_id": 36007
     }
   ],
   [
     {
-      "champion": "pantheon",
-      "skin_id": 80007
-    },
-    {
       "champion": "nunu & willump",
       "skin_id": 20007
+    },
+    {
+      "champion": "pantheon",
+      "skin_id": 80007
     },
     {
       "champion": "jinx",
@@ -2030,15 +2054,15 @@
   [
     {
       "champion": "miss fortune",
+      "skin_id": 21018
+    },
+    {
+      "champion": "miss fortune",
       "skin_id": 21020
     },
     {
       "champion": "miss fortune",
       "skin_id": 21033
-    },
-    {
-      "champion": "miss fortune",
-      "skin_id": 21018
     }
   ],
   [
@@ -2163,12 +2187,12 @@
   ],
   [
     {
-      "champion": "ashe",
-      "skin_id": 22043
-    },
-    {
       "champion": "zeri",
       "skin_id": 221010
+    },
+    {
+      "champion": "ashe",
+      "skin_id": 22043
     }
   ],
   [
@@ -2178,6 +2202,14 @@
     }
   ],
   [
+    {
+      "champion": "caitlyn",
+      "skin_id": 51048
+    },
+    {
+      "champion": "aatrox",
+      "skin_id": 266030
+    },
     {
       "champion": "akali",
       "skin_id": 84068
@@ -2191,16 +2223,8 @@
       "skin_id": 57033
     },
     {
-      "champion": "caitlyn",
-      "skin_id": 51048
-    },
-    {
       "champion": "ashe",
       "skin_id": 22063
-    },
-    {
-      "champion": "aatrox",
-      "skin_id": 266030
     }
   ],
   [
@@ -2271,16 +2295,16 @@
   ],
   [
     {
-      "champion": "tryndamere",
-      "skin_id": 23008
+      "champion": "draven",
+      "skin_id": 119005
     },
     {
       "champion": "sejuani",
       "skin_id": 113006
     },
     {
-      "champion": "draven",
-      "skin_id": 119005
+      "champion": "tryndamere",
+      "skin_id": 23008
     }
   ],
   [
@@ -2305,6 +2329,12 @@
     {
       "champion": "tryndamere",
       "skin_id": 23027
+    }
+  ],
+  [
+    {
+      "champion": "tryndamere",
+      "skin_id": 23037
     }
   ],
   [
@@ -2361,34 +2391,34 @@
   ],
   [
     {
-      "champion": "lee sin",
-      "skin_id": 64006
+      "champion": "vayne",
+      "skin_id": 67005
     },
     {
-      "champion": "jax",
-      "skin_id": 24008
+      "champion": "lee sin",
+      "skin_id": 64006
     },
     {
       "champion": "zyra",
       "skin_id": 143003
     },
     {
-      "champion": "vayne",
-      "skin_id": 67005
-    },
-    {
       "champion": "zed",
       "skin_id": 238002
+    },
+    {
+      "champion": "jax",
+      "skin_id": 24008
     }
   ],
   [
     {
-      "champion": "karma",
-      "skin_id": 43005
-    },
-    {
       "champion": "jax",
       "skin_id": 24012
+    },
+    {
+      "champion": "karma",
+      "skin_id": 43005
     }
   ],
   [
@@ -2457,12 +2487,12 @@
   ],
   [
     {
-      "champion": "morgana",
-      "skin_id": 25010
-    },
-    {
       "champion": "caitlyn",
       "skin_id": 51010
+    },
+    {
+      "champion": "morgana",
+      "skin_id": 25010
     }
   ],
   [
@@ -2515,6 +2545,12 @@
   ],
   [
     {
+      "champion": "morgana",
+      "skin_id": 25080
+    }
+  ],
+  [
+    {
       "champion": "zilean",
       "skin_id": 26000
     }
@@ -2563,6 +2599,12 @@
   ],
   [
     {
+      "champion": "zilean",
+      "skin_id": 26024
+    }
+  ],
+  [
+    {
       "champion": "singed",
       "skin_id": 27000
     }
@@ -2605,24 +2647,24 @@
   ],
   [
     {
-      "champion": "singed",
-      "skin_id": 27007
-    },
-    {
-      "champion": "talon",
-      "skin_id": 91004
-    },
-    {
-      "champion": "thresh",
-      "skin_id": 412004
-    },
-    {
       "champion": "twitch",
       "skin_id": 29007
     },
     {
       "champion": "rengar",
       "skin_id": 107003
+    },
+    {
+      "champion": "talon",
+      "skin_id": 91004
+    },
+    {
+      "champion": "singed",
+      "skin_id": 27007
+    },
+    {
+      "champion": "thresh",
+      "skin_id": 412004
     }
   ],
   [
@@ -2669,12 +2711,12 @@
   ],
   [
     {
-      "champion": "evelynn",
-      "skin_id": 28004
-    },
-    {
       "champion": "twitch",
       "skin_id": 29006
+    },
+    {
+      "champion": "evelynn",
+      "skin_id": 28004
     }
   ],
   [
@@ -2692,11 +2734,11 @@
   [
     {
       "champion": "evelynn",
-      "skin_id": 28031
+      "skin_id": 28007
     },
     {
       "champion": "evelynn",
-      "skin_id": 28007
+      "skin_id": 28031
     }
   ],
   [
@@ -2739,6 +2781,12 @@
     {
       "champion": "evelynn",
       "skin_id": 28053
+    }
+  ],
+  [
+    {
+      "champion": "evelynn",
+      "skin_id": 28064
     }
   ],
   [
@@ -2857,20 +2905,20 @@
       "skin_id": 42007
     },
     {
-      "champion": "janna",
-      "skin_id": 40006
-    },
-    {
-      "champion": "karthus",
-      "skin_id": 30005
+      "champion": "jarvan iv",
+      "skin_id": 59006
     },
     {
       "champion": "gragas",
       "skin_id": 79008
     },
     {
-      "champion": "jarvan iv",
-      "skin_id": 59006
+      "champion": "karthus",
+      "skin_id": 30005
+    },
+    {
+      "champion": "janna",
+      "skin_id": 40006
     }
   ],
   [
@@ -2891,22 +2939,28 @@
   ],
   [
     {
-      "champion": "sona",
-      "skin_id": 37026
-    },
-    {
       "champion": "karthus",
       "skin_id": 30017
     },
     {
       "champion": "mordekaiser",
       "skin_id": 82023
+    },
+    {
+      "champion": "sona",
+      "skin_id": 37026
     }
   ],
   [
     {
       "champion": "karthus",
       "skin_id": 30026
+    }
+  ],
+  [
+    {
+      "champion": "karthus",
+      "skin_id": 30035
     }
   ],
   [
@@ -2947,16 +3001,16 @@
   ],
   [
     {
-      "champion": "anivia",
-      "skin_id": 34006
-    },
-    {
       "champion": "renekton",
       "skin_id": 58007
     },
     {
       "champion": "cho'gath",
       "skin_id": 31006
+    },
+    {
+      "champion": "anivia",
+      "skin_id": 34006
     }
   ],
   [
@@ -3117,12 +3171,12 @@
   ],
   [
     {
-      "champion": "rammus",
-      "skin_id": 33007
-    },
-    {
       "champion": "xerath",
       "skin_id": 101004
+    },
+    {
+      "champion": "rammus",
+      "skin_id": 33007
     },
     {
       "champion": "skarner",
@@ -3131,12 +3185,12 @@
   ],
   [
     {
-      "champion": "rammus",
-      "skin_id": 33008
-    },
-    {
       "champion": "lee sin",
       "skin_id": 64012
+    },
+    {
+      "champion": "rammus",
+      "skin_id": 33008
     }
   ],
   [
@@ -3371,20 +3425,20 @@
   ],
   [
     {
-      "champion": "lulu",
-      "skin_id": 117005
+      "champion": "draven",
+      "skin_id": 119004
     },
     {
-      "champion": "zac",
-      "skin_id": 154002
+      "champion": "lulu",
+      "skin_id": 117005
     },
     {
       "champion": "dr. mundo",
       "skin_id": 36008
     },
     {
-      "champion": "draven",
-      "skin_id": 119004
+      "champion": "zac",
+      "skin_id": 154002
     },
     {
       "champion": "rek'sai",
@@ -3397,12 +3451,12 @@
       "skin_id": 106005
     },
     {
-      "champion": "dr. mundo",
-      "skin_id": 36009
-    },
-    {
       "champion": "gnar",
       "skin_id": 150004
+    },
+    {
+      "champion": "dr. mundo",
+      "skin_id": 36009
     }
   ],
   [
@@ -3493,6 +3547,12 @@
     {
       "champion": "sona",
       "skin_id": 37056
+    }
+  ],
+  [
+    {
+      "champion": "sona",
+      "skin_id": 37066
     }
   ],
   [
@@ -3612,11 +3672,11 @@
   [
     {
       "champion": "irelia",
-      "skin_id": 39017
+      "skin_id": 39036
     },
     {
       "champion": "irelia",
-      "skin_id": 39036
+      "skin_id": 39017
     }
   ],
   [
@@ -3735,6 +3795,12 @@
   ],
   [
     {
+      "champion": "janna",
+      "skin_id": 40066
+    }
+  ],
+  [
+    {
       "champion": "gangplank",
       "skin_id": 41000
     }
@@ -3789,12 +3855,12 @@
   ],
   [
     {
-      "champion": "zoe",
-      "skin_id": 142002
-    },
-    {
       "champion": "gangplank",
       "skin_id": 41014
+    },
+    {
+      "champion": "zoe",
+      "skin_id": 142002
     },
     {
       "champion": "caitlyn",
@@ -3807,10 +3873,6 @@
       "skin_id": 41021
     },
     {
-      "champion": "thresh",
-      "skin_id": 412015
-    },
-    {
       "champion": "lee sin",
       "skin_id": 64029
     },
@@ -3821,6 +3883,10 @@
     {
       "champion": "malphite",
       "skin_id": 54025
+    },
+    {
+      "champion": "thresh",
+      "skin_id": 412015
     }
   ],
   [
@@ -3885,18 +3951,24 @@
   ],
   [
     {
-      "champion": "corki",
-      "skin_id": 42018
-    },
-    {
       "champion": "fizz",
       "skin_id": 105014
+    },
+    {
+      "champion": "corki",
+      "skin_id": 42018
     }
   ],
   [
     {
       "champion": "corki",
       "skin_id": 42026
+    }
+  ],
+  [
+    {
+      "champion": "corki",
+      "skin_id": 42036
     }
   ],
   [
@@ -3981,6 +4053,12 @@
     {
       "champion": "karma",
       "skin_id": 43061
+    }
+  ],
+  [
+    {
+      "champion": "karma",
+      "skin_id": 43070
     }
   ],
   [
@@ -4167,16 +4245,16 @@
   ],
   [
     {
+      "champion": "trundle",
+      "skin_id": 48021
+    },
+    {
       "champion": "gragas",
       "skin_id": 79039
     },
     {
       "champion": "neeko",
       "skin_id": 518040
-    },
-    {
-      "champion": "trundle",
-      "skin_id": 48021
     }
   ],
   [
@@ -4300,11 +4378,11 @@
   [
     {
       "champion": "caitlyn",
-      "skin_id": 51029
+      "skin_id": 51020
     },
     {
       "champion": "caitlyn",
-      "skin_id": 51020
+      "skin_id": 51029
     }
   ],
   [
@@ -4495,12 +4573,12 @@
       "skin_id": 266003
     },
     {
-      "champion": "malphite",
-      "skin_id": 54007
-    },
-    {
       "champion": "garen",
       "skin_id": 86010
+    },
+    {
+      "champion": "malphite",
+      "skin_id": 54007
     }
   ],
   [
@@ -4512,11 +4590,11 @@
   [
     {
       "champion": "malphite",
-      "skin_id": 54023
+      "skin_id": 54024
     },
     {
       "champion": "malphite",
-      "skin_id": 54024
+      "skin_id": 54023
     }
   ],
   [
@@ -4833,6 +4911,12 @@
   ],
   [
     {
+      "champion": "renekton",
+      "skin_id": 58048
+    }
+  ],
+  [
+    {
       "champion": "jarvan iv",
       "skin_id": 59000
     }
@@ -4875,24 +4959,24 @@
   ],
   [
     {
-      "champion": "taliyah",
-      "skin_id": 163002
-    },
-    {
       "champion": "jarvan iv",
       "skin_id": 59008
+    },
+    {
+      "champion": "taliyah",
+      "skin_id": 163002
     },
     {
       "champion": "xayah",
       "skin_id": 498003
     },
     {
-      "champion": "rakan",
-      "skin_id": 497003
-    },
-    {
       "champion": "ezreal",
       "skin_id": 81019
+    },
+    {
+      "champion": "rakan",
+      "skin_id": 497003
     },
     {
       "champion": "gnar",
@@ -4933,6 +5017,12 @@
     {
       "champion": "jarvan iv",
       "skin_id": 59044
+    }
+  ],
+  [
+    {
+      "champion": "jarvan iv",
+      "skin_id": 59054
     }
   ],
   [
@@ -5057,24 +5147,24 @@
   ],
   [
     {
-      "champion": "bard",
-      "skin_id": 432035
-    },
-    {
       "champion": "lee sin",
       "skin_id": 64068
+    },
+    {
+      "champion": "bard",
+      "skin_id": 432035
     },
     {
       "champion": "jayce",
       "skin_id": 126034
     },
     {
-      "champion": "jinx",
-      "skin_id": 222062
-    },
-    {
       "champion": "orianna",
       "skin_id": 61038
+    },
+    {
+      "champion": "jinx",
+      "skin_id": 222062
     }
   ],
   [
@@ -5260,15 +5350,15 @@
   [
     {
       "champion": "lee sin",
-      "skin_id": 64039
-    },
-    {
-      "champion": "lee sin",
       "skin_id": 64027
     },
     {
       "champion": "lee sin",
       "skin_id": 64028
+    },
+    {
+      "champion": "lee sin",
+      "skin_id": 64039
     }
   ],
   [
@@ -5293,6 +5383,12 @@
     {
       "champion": "lee sin",
       "skin_id": 64052
+    }
+  ],
+  [
+    {
+      "champion": "lee sin",
+      "skin_id": 64072
     }
   ],
   [
@@ -5352,11 +5448,11 @@
   [
     {
       "champion": "vayne",
-      "skin_id": 67033
+      "skin_id": 67013
     },
     {
       "champion": "vayne",
-      "skin_id": 67013
+      "skin_id": 67033
     }
   ],
   [
@@ -5387,6 +5483,12 @@
     {
       "champion": "vayne",
       "skin_id": 67055
+    }
+  ],
+  [
+    {
+      "champion": "vayne",
+      "skin_id": 67064
     }
   ],
   [
@@ -5559,22 +5661,22 @@
   ],
   [
     {
-      "champion": "heimerdinger",
-      "skin_id": 74015
-    },
-    {
       "champion": "syndra",
       "skin_id": 134007
+    },
+    {
+      "champion": "heimerdinger",
+      "skin_id": 74015
     }
   ],
   [
     {
-      "champion": "ziggs",
-      "skin_id": 115024
-    },
-    {
       "champion": "heimerdinger",
       "skin_id": 74024
+    },
+    {
+      "champion": "ziggs",
+      "skin_id": 115024
     }
   ],
   [
@@ -5621,12 +5723,12 @@
   ],
   [
     {
-      "champion": "nasus",
-      "skin_id": 75010
-    },
-    {
       "champion": "hecarim",
       "skin_id": 120006
+    },
+    {
+      "champion": "nasus",
+      "skin_id": 75010
     }
   ],
   [
@@ -5765,6 +5867,12 @@
   ],
   [
     {
+      "champion": "nidalee",
+      "skin_id": 76058
+    }
+  ],
+  [
+    {
       "champion": "udyr",
       "skin_id": 77000
     }
@@ -5867,12 +5975,12 @@
   ],
   [
     {
-      "champion": "gnar",
-      "skin_id": 150015
-    },
-    {
       "champion": "poppy",
       "skin_id": 78016
+    },
+    {
+      "champion": "gnar",
+      "skin_id": 150015
     }
   ],
   [
@@ -6088,11 +6196,11 @@
   [
     {
       "champion": "ezreal",
-      "skin_id": 81023
+      "skin_id": 81022
     },
     {
       "champion": "ezreal",
-      "skin_id": 81022
+      "skin_id": 81023
     }
   ],
   [
@@ -6239,6 +6347,12 @@
   ],
   [
     {
+      "champion": "yorick",
+      "skin_id": 83050
+    }
+  ],
+  [
+    {
       "champion": "akali",
       "skin_id": 84000
     }
@@ -6287,12 +6401,12 @@
   ],
   [
     {
-      "champion": "kai'sa",
-      "skin_id": 145014
-    },
-    {
       "champion": "akali",
       "skin_id": 84009
+    },
+    {
+      "champion": "kai'sa",
+      "skin_id": 145014
     },
     {
       "champion": "ahri",
@@ -6302,23 +6416,23 @@
   [
     {
       "champion": "ahri",
-      "skin_id": 103016
+      "skin_id": 103065
     },
     {
       "champion": "akali",
       "skin_id": 84013
     },
     {
-      "champion": "akali",
-      "skin_id": 84060
+      "champion": "ahri",
+      "skin_id": 103016
     },
     {
       "champion": "kai'sa",
       "skin_id": 145039
     },
     {
-      "champion": "ahri",
-      "skin_id": 103065
+      "champion": "akali",
+      "skin_id": 84060
     },
     {
       "champion": "kai'sa",
@@ -6371,6 +6485,12 @@
     {
       "champion": "akali",
       "skin_id": 84082
+    }
+  ],
+  [
+    {
+      "champion": "akali",
+      "skin_id": 84092
     }
   ],
   [
@@ -6434,10 +6554,6 @@
   [
     {
       "champion": "garen",
-      "skin_id": 86043
-    },
-    {
-      "champion": "garen",
       "skin_id": 86000
     }
   ],
@@ -6498,11 +6614,11 @@
   [
     {
       "champion": "garen",
-      "skin_id": 86023
+      "skin_id": 86022
     },
     {
       "champion": "garen",
-      "skin_id": 86022
+      "skin_id": 86023
     }
   ],
   [
@@ -6521,6 +6637,12 @@
     {
       "champion": "garen",
       "skin_id": 86044
+    }
+  ],
+  [
+    {
+      "champion": "garen",
+      "skin_id": 86046
     }
   ],
   [
@@ -6737,12 +6859,12 @@
   ],
   [
     {
-      "champion": "syndra",
-      "skin_id": 134016
-    },
-    {
       "champion": "talon",
       "skin_id": 91029
+    },
+    {
+      "champion": "syndra",
+      "skin_id": 134016
     }
   ],
   [
@@ -6800,11 +6922,11 @@
   [
     {
       "champion": "riven",
-      "skin_id": 92004
+      "skin_id": 92007
     },
     {
       "champion": "riven",
-      "skin_id": 92007
+      "skin_id": 92004
     }
   ],
   [
@@ -6945,22 +7067,22 @@
   ],
   [
     {
-      "champion": "kog'maw",
-      "skin_id": 96028
-    },
-    {
       "champion": "yuumi",
       "skin_id": 350019
+    },
+    {
+      "champion": "kog'maw",
+      "skin_id": 96028
     }
   ],
   [
     {
-      "champion": "lulu",
-      "skin_id": 117037
-    },
-    {
       "champion": "kog'maw",
       "skin_id": 96037
+    },
+    {
+      "champion": "lulu",
+      "skin_id": 117037
     }
   ],
   [
@@ -7101,12 +7223,12 @@
   ],
   [
     {
-      "champion": "lulu",
-      "skin_id": 117015
-    },
-    {
       "champion": "lux",
       "skin_id": 99014
+    },
+    {
+      "champion": "lulu",
+      "skin_id": 117015
     }
   ],
   [
@@ -7371,6 +7493,18 @@
   ],
   [
     {
+      "champion": "ahri",
+      "skin_id": 103088
+    }
+  ],
+  [
+    {
+      "champion": "ahri",
+      "skin_id": 103089
+    }
+  ],
+  [
+    {
       "champion": "graves",
       "skin_id": 104000
     }
@@ -7431,16 +7565,8 @@
   ],
   [
     {
-      "champion": "aphelios",
-      "skin_id": 523018
-    },
-    {
       "champion": "yuumi",
       "skin_id": 350037
-    },
-    {
-      "champion": "zoe",
-      "skin_id": 142020
     },
     {
       "champion": "graves",
@@ -7449,6 +7575,14 @@
     {
       "champion": "viego",
       "skin_id": 234019
+    },
+    {
+      "champion": "zoe",
+      "skin_id": 142020
+    },
+    {
+      "champion": "aphelios",
+      "skin_id": 523018
     }
   ],
   [
@@ -7575,6 +7709,12 @@
   ],
   [
     {
+      "champion": "volibear",
+      "skin_id": 106029
+    }
+  ],
+  [
+    {
       "champion": "rengar",
       "skin_id": 107000
     }
@@ -7683,6 +7823,28 @@
   ],
   [
     {
+      "champion": "varus",
+      "skin_id": 110069
+    },
+    {
+      "champion": "gnar",
+      "skin_id": 150041
+    },
+    {
+      "champion": "yone",
+      "skin_id": 777074
+    },
+    {
+      "champion": "pyke",
+      "skin_id": 555075
+    },
+    {
+      "champion": "vi",
+      "skin_id": 254049
+    }
+  ],
+  [
+    {
       "champion": "nautilus",
       "skin_id": 111000
     }
@@ -7719,12 +7881,12 @@
   ],
   [
     {
-      "champion": "renata glasc",
-      "skin_id": 888010
-    },
-    {
       "champion": "nautilus",
       "skin_id": 111018
+    },
+    {
+      "champion": "renata glasc",
+      "skin_id": 888010
     }
   ],
   [
@@ -7927,12 +8089,12 @@
   ],
   [
     {
-      "champion": "nami",
-      "skin_id": 267032
-    },
-    {
       "champion": "fiora",
       "skin_id": 114060
+    },
+    {
+      "champion": "nami",
+      "skin_id": 267032
     }
   ],
   [
@@ -7951,6 +8113,12 @@
     {
       "champion": "fiora",
       "skin_id": 114089
+    }
+  ],
+  [
+    {
+      "champion": "fiora",
+      "skin_id": 114098
     }
   ],
   [
@@ -8064,17 +8232,23 @@
   [
     {
       "champion": "lulu",
-      "skin_id": 117026
+      "skin_id": 117027
     },
     {
       "champion": "lulu",
-      "skin_id": 117027
+      "skin_id": 117026
     }
   ],
   [
     {
       "champion": "lulu",
       "skin_id": 117046
+    }
+  ],
+  [
+    {
+      "champion": "lulu",
+      "skin_id": 117055
     }
   ],
   [
@@ -8103,12 +8277,12 @@
   ],
   [
     {
-      "champion": "draven",
-      "skin_id": 119006
-    },
-    {
       "champion": "vel'koz",
       "skin_id": 161003
+    },
+    {
+      "champion": "draven",
+      "skin_id": 119006
     }
   ],
   [
@@ -8217,6 +8391,12 @@
     {
       "champion": "hecarim",
       "skin_id": 120031
+    }
+  ],
+  [
+    {
+      "champion": "hecarim",
+      "skin_id": 120041
     }
   ],
   [
@@ -8522,11 +8702,11 @@
   [
     {
       "champion": "diana",
-      "skin_id": 131026
+      "skin_id": 131025
     },
     {
       "champion": "diana",
-      "skin_id": 131025
+      "skin_id": 131026
     }
   ],
   [
@@ -8621,16 +8801,16 @@
   ],
   [
     {
+      "champion": "gnar",
+      "skin_id": 150003
+    },
+    {
       "champion": "bard",
       "skin_id": 432005
     },
     {
       "champion": "syndra",
       "skin_id": 134004
-    },
-    {
-      "champion": "gnar",
-      "skin_id": 150003
     }
   ],
   [
@@ -8741,12 +8921,12 @@
   ],
   [
     {
-      "champion": "yone",
-      "skin_id": 777045
-    },
-    {
       "champion": "kayn",
       "skin_id": 141020
+    },
+    {
+      "champion": "yone",
+      "skin_id": 777045
     }
   ],
   [
@@ -8884,11 +9064,11 @@
   [
     {
       "champion": "kai'sa",
-      "skin_id": 145027
+      "skin_id": 145026
     },
     {
       "champion": "kai'sa",
-      "skin_id": 145026
+      "skin_id": 145027
     }
   ],
   [
@@ -8919,6 +9099,12 @@
     {
       "champion": "kai'sa",
       "skin_id": 145069
+    }
+  ],
+  [
+    {
+      "champion": "kai'sa",
+      "skin_id": 145070
     }
   ],
   [
@@ -9407,6 +9593,12 @@
   ],
   [
     {
+      "champion": "jhin",
+      "skin_id": 202055
+    }
+  ],
+  [
+    {
       "champion": "kindred",
       "skin_id": 203000
     }
@@ -9437,12 +9629,12 @@
   ],
   [
     {
-      "champion": "kindred",
-      "skin_id": 203022
-    },
-    {
       "champion": "kled",
       "skin_id": 240018
+    },
+    {
+      "champion": "kindred",
+      "skin_id": 203022
     }
   ],
   [
@@ -9531,12 +9723,12 @@
   ],
   [
     {
-      "champion": "yuumi",
-      "skin_id": 350011
-    },
-    {
       "champion": "jinx",
       "skin_id": 222029
+    },
+    {
+      "champion": "yuumi",
+      "skin_id": 350011
     }
   ],
   [
@@ -9873,6 +10065,12 @@
     {
       "champion": "zed",
       "skin_id": 238068
+    }
+  ],
+  [
+    {
+      "champion": "zed",
+      "skin_id": 238069
     }
   ],
   [
@@ -10299,6 +10497,12 @@
   ],
   [
     {
+      "champion": "yuumi",
+      "skin_id": 350061
+    }
+  ],
+  [
+    {
       "champion": "samira",
       "skin_id": 360000
     }
@@ -10555,6 +10759,12 @@
   ],
   [
     {
+      "champion": "kalista",
+      "skin_id": 429024
+    }
+  ],
+  [
+    {
       "champion": "bard",
       "skin_id": 432000
     }
@@ -10613,12 +10823,12 @@
   ],
   [
     {
-      "champion": "rakan",
-      "skin_id": 497002
-    },
-    {
       "champion": "xayah",
       "skin_id": 498002
+    },
+    {
+      "champion": "rakan",
+      "skin_id": 497002
     }
   ],
   [
@@ -10629,22 +10839,22 @@
   ],
   [
     {
-      "champion": "rakan",
-      "skin_id": 497005
-    },
-    {
       "champion": "xayah",
       "skin_id": 498004
+    },
+    {
+      "champion": "rakan",
+      "skin_id": 497005
     }
   ],
   [
     {
-      "champion": "rakan",
-      "skin_id": 497009
-    },
-    {
       "champion": "xayah",
       "skin_id": 498008
+    },
+    {
+      "champion": "rakan",
+      "skin_id": 497009
     }
   ],
   [
@@ -10708,11 +10918,11 @@
   [
     {
       "champion": "xayah",
-      "skin_id": 498017
+      "skin_id": 498026
     },
     {
       "champion": "xayah",
-      "skin_id": 498026
+      "skin_id": 498017
     }
   ],
   [
@@ -10805,6 +11015,12 @@
   ],
   [
     {
+      "champion": "sylas",
+      "skin_id": 517053
+    }
+  ],
+  [
+    {
       "champion": "neeko",
       "skin_id": 518000
     }
@@ -10877,6 +11093,12 @@
     {
       "champion": "aphelios",
       "skin_id": 523030
+    }
+  ],
+  [
+    {
+      "champion": "aphelios",
+      "skin_id": 523040
     }
   ],
   [
@@ -10977,6 +11199,12 @@
   ],
   [
     {
+      "champion": "pyke",
+      "skin_id": 555074
+    }
+  ],
+  [
+    {
       "champion": "vex",
       "skin_id": 711000
     }
@@ -10991,6 +11219,12 @@
     {
       "champion": "vex",
       "skin_id": 711010
+    }
+  ],
+  [
+    {
+      "champion": "vex",
+      "skin_id": 711020
     }
   ],
   [
@@ -11079,6 +11313,18 @@
   ],
   [
     {
+      "champion": "yunara",
+      "skin_id": 804000
+    }
+  ],
+  [
+    {
+      "champion": "yunara",
+      "skin_id": 804001
+    }
+  ],
+  [
+    {
       "champion": "sett",
       "skin_id": 875000
     }
@@ -11137,6 +11383,12 @@
   ],
   [
     {
+      "champion": "sett",
+      "skin_id": 875067
+    }
+  ],
+  [
+    {
       "champion": "lillia",
       "skin_id": 876000
     }
@@ -11163,6 +11415,12 @@
     {
       "champion": "lillia",
       "skin_id": 876028
+    }
+  ],
+  [
+    {
+      "champion": "lillia",
+      "skin_id": 876037
     }
   ],
   [
@@ -11239,6 +11497,12 @@
   ],
   [
     {
+      "champion": "aurora",
+      "skin_id": 893011
+    }
+  ],
+  [
+    {
       "champion": "nilah",
       "skin_id": 895000
     }
@@ -11253,6 +11517,12 @@
     {
       "champion": "nilah",
       "skin_id": 895011
+    }
+  ],
+  [
+    {
+      "champion": "nilah",
+      "skin_id": 895021
     }
   ],
   [
@@ -11319,6 +11589,12 @@
     {
       "champion": "hwei",
       "skin_id": 910001
+    }
+  ],
+  [
+    {
+      "champion": "hwei",
+      "skin_id": 910011
     }
   ],
   [
