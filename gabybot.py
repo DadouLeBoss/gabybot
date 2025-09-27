@@ -25,9 +25,7 @@ score = {}
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
-parler=False
 jeu=False
-sol=False
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def find_cluster_for_skin(skin_id: int, champion: str, clusters: list) -> list:
@@ -78,16 +76,12 @@ async def get_random_skin_splash_with_cluster_info(champion_name: str, clusters:
 
 @client.event
 async def on_message(message):
-    global parler,jeu,champ,img,soluce
+    global jeu,champ,img,soluce
 
     if message.author.bot:
         return
     
-    
     m=message.content.lower()
-    if " tg " in (" " + m + " "):
-        await message.channel.send("fdp")
-        return
 
     if message.content == "!reset":
         score.clear()
@@ -106,10 +100,8 @@ async def on_message(message):
 
     if message.content == "!jeu" and message.channel.name=="jeu-image" and not jeu:
         jeu=True
-        sol=False
         champ = random.choice(list(champions.keys()))
         infos = await get_random_skin_splash_with_cluster_info(champ, clusters)
-        print(infos["splash_url"])
         soluce = infos["related_champions"]
 
         async with aiohttp.ClientSession() as session:
@@ -142,12 +134,10 @@ async def on_message(message):
     if jeu:
         if unidecode.unidecode(message.content.lower()) in soluce:
             jeu=False
-            sol=True
             messages_construire = ""
             for champ in soluce:
                 messages_construire += champ + ", "
             messages_construire = messages_construire[:-2]
-            print(messages_construire)
             await message.channel.send("Bien joué tu as trouvé " + message.author.mention + " c'etait " + messages_construire)
             
             name = message.author.name
@@ -158,7 +148,7 @@ async def on_message(message):
 
             await message.channel.send("Tu as  " + str(score[name]) + " points !")
 
-            imgSmall = img.resize((int(1215 / 3), int(717 / 3)), resample=Image.Resampling.BILINEAR)
+            imgSmall = img.resize((int(1215), int(717)), resample=Image.Resampling.BILINEAR)
             result = imgSmall.resize(img.size, Image.Resampling.NEAREST)
             with BytesIO() as image_binary:
                 result.save(image_binary, 'PNG')
@@ -173,3 +163,4 @@ async def on_message(message):
 
 
 client.run(TOKEN)
+
