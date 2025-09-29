@@ -73,6 +73,41 @@ async def get_random_skin_splash_with_cluster_info(champion_name: str, clusters:
         "related_champions": related_champions
     }
 
+async def start_game(channel, difficile=False):
+    global jeu, champ, img, soluce
+    jeu = True
+
+    champ = random.choice(list(champions.keys()))
+    infos = await get_random_skin_splash_with_cluster_info(champ, clusters)
+    soluce = infos["related_champions"]
+
+    async with aiohttp.ClientSession() as session:
+        async with session.get(infos["splash_url"]) as resp:
+            if resp.status != 200:
+                return None
+            content = await resp.read()
+            img = Image.open(BytesIO(content))
+
+    # Noir & blanc si mode difficile
+    if difficile:
+        img = img.convert("L").convert("RGB")
+
+    # Envoi progressif (du flou vers l'image nette)
+    for k in reversed(range(1, 12)):
+        imgSmall = img.resize((int(1215 / (k * k)), int(717 / (k * k))), resample=Image.Resampling.BILINEAR)
+        result = imgSmall.resize(img.size, Image.Resampling.NEAREST)
+
+        with BytesIO() as image_binary:
+            if not jeu:
+                break
+            result.save(image_binary, 'PNG')
+            image_binary.seek(0)
+            await channel.send(file=discord.File(fp=image_binary, filename='image.png'))
+            if not jeu:
+                break
+            await asyncio.sleep(4)
+            if not jeu:
+                break
 
 @client.event
 async def on_message(message):
@@ -99,35 +134,10 @@ async def on_message(message):
         return
 
     if message.content == "!jeu" and message.channel.name=="jeu-image" and not jeu:
-        jeu=True
-        champ = random.choice(list(champions.keys()))
-        infos = await get_random_skin_splash_with_cluster_info(champ, clusters)
-        soluce = infos["related_champions"]
-
-        async with aiohttp.ClientSession() as session:
-            async with session.get(infos["splash_url"]) as resp:
-                if resp.status != 200:
-                    return None
-                content = await resp.read()
-                img = Image.open(BytesIO(content))
-        
-        for k in reversed(range(1, 12)):
-            imgSmall = img.resize((int(1215 / (k * k)), int(717 / (k * k))), resample=Image.Resampling.BILINEAR)
-            result = imgSmall.resize(img.size, Image.Resampling.NEAREST)
-
-            with BytesIO() as image_binary:
-                if not jeu:
-                    break
-                result.save(image_binary, 'PNG')
-                image_binary.seek(0)
-                if not jeu:
-                    break
-                await message.channel.send(file=discord.File(fp=image_binary, filename='image.png'))
-                if not jeu:
-                    break
-                await asyncio.sleep(5)
-                if not jeu:
-                    break
+        await start_game(message.channel, difficile=False)
+    
+    if m == "!jeu difficile" and message.channel.name == "jeu-image" and not jeu:
+        await start_game(message.channel, difficile=True)
 
 
 
