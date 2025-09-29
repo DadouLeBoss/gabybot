@@ -80,20 +80,21 @@ async def start_game(channel, difficile=False):
     champ = random.choice(list(champions.keys()))
     infos = await get_random_skin_splash_with_cluster_info(champ, clusters)
     soluce = infos["related_champions"]
-
+    nb_image = 11
+    
     async with aiohttp.ClientSession() as session:
         async with session.get(infos["splash_url"]) as resp:
             if resp.status != 200:
                 return None
             content = await resp.read()
             img = Image.open(BytesIO(content))
-
-    # Noir & blanc si mode difficile
+    
     if difficile:
         img = img.convert("L").convert("RGB")
+        nb_image = 9
 
-    # Envoi progressif (du flou vers l'image nette)
-    for k in reversed(range(1, 12)):
+
+    for k in reversed(range(1, nb_image + 1)):
         imgSmall = img.resize((int(1215 / (k * k)), int(717 / (k * k))), resample=Image.Resampling.BILINEAR)
         result = imgSmall.resize(img.size, Image.Resampling.NEAREST)
 
@@ -105,7 +106,7 @@ async def start_game(channel, difficile=False):
             await channel.send(file=discord.File(fp=image_binary, filename='image.png'))
             if not jeu:
                 break
-            await asyncio.sleep(4)
+            await asyncio.sleep(5)
             if not jeu:
                 break
 
@@ -173,4 +174,5 @@ async def on_message(message):
 
 
 client.run(TOKEN)
+
 
