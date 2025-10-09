@@ -111,6 +111,70 @@ async def start_game(channel, difficile=False):
             if not jeu:
                 break
 
+async def start_game_puzzle(channel):
+    global jeu, champ, img, soluce, score_en_cours
+    jeu = True
+    
+    champ = random.choice(list(champions.keys()))
+    infos = await get_random_skin_splash_with_cluster_info(champ, clusters)
+    soluce = infos["related_champions"]
+    nb_image = 5
+    
+    async with aiohttp.ClientSession() as session:
+        async with session.get(infos["splash_url"]) as resp:
+            if resp.status != 200:
+                return None
+            content = await resp.read()
+            img = Image.open(BytesIO(content))
+    
+    score_en_cours = 0
+
+    for k in reversed(range(1, nb_image + 1)):
+        result = reconstituer_image_melangee(img, (k*10)**2)
+        score_en_cours = nb_image - k
+        with BytesIO() as image_binary:
+            if not jeu:
+                break
+            result.save(image_binary, 'PNG')
+            image_binary.seek(0)
+            await channel.send(file=discord.File(fp=image_binary, filename='image.png'))
+            if not jeu:
+                break
+            await asyncio.sleep(5)
+            if not jeu:
+                break
+
+def decouper_image(img, nb_pieces):
+
+    cols = rows = int(nb_pieces ** 0.5)
+    w, h = img.size
+    w -= w % cols
+    h -= h % rows
+    img = img.resize((w, h))
+    pw, ph = w // cols, h // rows
+
+    pieces = []
+    for y in range(rows):
+        for x in range(cols):
+            piece = img.crop((x*pw, y*ph, (x+1)*pw, (y+1)*ph))
+            pieces.append(piece)
+    return pieces
+
+def reconstituer_image_melangee(img, nb_pieces):
+    pieces = decouper_image(img, nb_pieces)
+    random.shuffle(pieces)
+    cols = rows = int(nb_pieces ** 0.5)
+    w, h = img.size
+    pw, ph = w // cols, h // rows
+    
+    new_image = Image.new("RGB", (w, h))
+    i = 0
+    for y in range(rows):
+        for x in range(cols):
+            new_image.paste(pieces[i], (x*pw, y*ph))
+            i += 1
+    return new_image
+
 @client.event
 async def on_message(message):
     global jeu,champ,img,soluce
@@ -140,6 +204,9 @@ async def on_message(message):
     
     if m == "!jeu difficile" and message.channel.name == "jeu-image" and not jeu:
         await start_game(message.channel, difficile=True)
+
+    if m == "!jeu2" and message.channel.name == "jeu-image" and not jeu:
+        await start_game_puzzle(message.channel)
 
 
 
